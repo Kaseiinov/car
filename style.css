@@ -317,6 +317,7 @@ background: rgba(217, 217, 217, 0.5);
 .usluga__icon{
     width: 30%;
 
+    display: block;
     position: relative;
 
     transition: .2s all;
@@ -334,6 +335,9 @@ background: rgba(217, 217, 217, 0.5);
 }
 
 .usluga__img{
+    width: 368px;
+    height: 460px;
+
     border-radius: 15px;
 }
 
@@ -387,6 +391,7 @@ background: rgba(217, 217, 217, 0.5);
 }
 
 .zakaz__box__inner{
+    width: 100%;
     display: flex;
 }
 
@@ -396,6 +401,7 @@ background: rgba(217, 217, 217, 0.5);
 
     display: block;
     position: absolute;
+
     z-index: 2;
 
     margin-top: 139px;
@@ -472,6 +478,7 @@ background: rgba(217, 217, 217, 0.5);
 }
 
 .zakaz__icon{
+    width: 45%;
     position: relative;
 }
 
@@ -491,7 +498,8 @@ background: rgba(217, 217, 217, 0.5);
 
     position: absolute;
     top: 0;
-    left: 68px;
+    left: 0;
+    margin-left: 50px;
 
 }
 
@@ -518,6 +526,30 @@ background: rgba(217, 217, 217, 0.5);
     color: #FFFFFF; 
     
     margin-bottom: 67px;
+}
+
+.zakaz__btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+     
+    color: #FFFFFF;   
+
+    display: inline-block;
+
+    transition: .1s all;
+    
+    background-color: #0B2154;
+    border-radius: 10px;  
+
+    padding: 11px 22px;
+}
+
+.zakaz__btn:hover{
+    transform: scale(1.1);
 }
 
 /* review */
@@ -666,6 +698,9 @@ background: rgba(217, 217, 217, 0.5);
 /* car */
 
 .car__box__img{
+    width: 100%;
+    max-width: 1220px;
+    overflow: hidden;
     display: flex;
     position: relative;
 }
@@ -725,8 +760,6 @@ background: rgba(217, 217, 217, 0.5);
 }
 
 .info__img{
-
-
     margin-right: 26px;
 }
 
